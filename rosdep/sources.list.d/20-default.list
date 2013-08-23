@@ -1,6 +1,7 @@
 # os-specific listings first
 yaml https://github.com/ros/rosdistro/raw/master/rosdep/osx-homebrew.yaml osx
 yaml https://github.com/ros/rosdistro/raw/master/rosdep/gentoo.yaml gentoo
+yaml https://raw.github.com/sanjayankur31/rosdistro-1/fedora-conf/rosdep/fedora.yaml fedora
 
 # generic
 yaml https://github.com/ros/rosdistro/raw/master/rosdep/base.yaml
