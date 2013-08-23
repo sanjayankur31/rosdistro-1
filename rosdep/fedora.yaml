@@ -1,184 +1,230 @@
 catkin:
   fedora:
-  [ros-groovy-catkin]
+    yum:
+      packages: [ros-groovy-catkin]
 
 cpp_common:
   fedora:
-  [ros-groovy-cpp_common]
+    yum:
+      packages: [ros-groovy-cpp_common]
 
 gencpp:
   fedora:
-  [ros-groovy-gencpp]
+    yum:
+      packages: [ros-groovy-gencpp]
 
 genlisp:
   fedora:
-  [ros-groovy-genlisp]
+    yum:
+      packages: [ros-groovy-genlisp]
 
 genmsg:
   fedora:
-  [ros-groovy-genmsg]
+    yum:
+      packages: [ros-groovy-genmsg]
 
 genpy:
   fedora:
-  [ros-groovy-genpy]
+    yum:
+      packages: [ros-groovy-genpy]
 
 message_filters:
   fedora:
-  [ros-groovy-message_filters]
+    yum:
+      packages: [ros-groovy-message_filters]
 
 message_generation:
   fedora:
-  [ros-groovy-message_generation]
+    yum:
+      packages: [ros-groovy-message_generation]
 
 message_runtime:
   fedora:
-  [ros-groovy-message_runtime]
+    yum:
+      packages: [ros-groovy-message_runtime]
 
 mk:
   fedora:
-  [ros-groovy-mk]
+    yum:
+      packages: [ros-groovy-mk]
 
 ros:
   fedora:
-  [ros-groovy-ros]
+    yum:
+      packages: [ros-groovy-ros]
 
 rosbag:
   fedora:
-  [ros-groovy-rosbag]
+    yum:
+      packages: [ros-groovy-rosbag]
 
 rosbash:
   fedora:
-  [ros-groovy-rosbash]
+    yum:
+      packages: [ros-groovy-rosbash]
 
 rosboost_cfg:
   fedora:
-  [ros-groovy-rosboost_cfg]
+    yum:
+      packages: [ros-groovy-rosboost_cfg]
 
 rosbuild:
   fedora:
-  [ros-groovy-rosbuild]
+    yum:
+      packages: [ros-groovy-rosbuild]
 
 rosclean:
   fedora:
-  [ros-groovy-rosclean]
+    yum:
+      packages: [ros-groovy-rosclean]
 
 ros_comm:
   fedora:
-  [ros-groovy-ros_comm]
+    yum:
+      packages: [ros-groovy-ros_comm]
 
 rosconsole:
   fedora:
-  [ros-groovy-rosconsole]
+    yum:
+      packages: [ros-groovy-rosconsole]
 
 roscpp:
   fedora:
-  [ros-groovy-roscpp]
+    yum:
+      packages: [ros-groovy-roscpp] 
 
 roscpp_serialization:
   fedora:
-  [ros-groovy-roscpp_serialization]
+    yum:
+      packages: [ros-groovy-roscpp_serialization]
 
 roscpp_traits:
   fedora:
-  [ros-groovy-roscpp_traits]
+    yum:
+      packages: [ros-groovy-roscpp_traits]
 
 roscreate:
   fedora:
-  [ros-groovy-roscreate]
+    yum:
+      packages: [ros-groovy-roscreate]
 
 rosgraph:
   fedora:
-  [ros-groovy-rosgraph]
+    yum:
+      packages: [ros-groovy-rosgraph]
 
 rosgraph_msgs:
   fedora:
-  [ros-groovy-rosgraph_msgs]
+    yum:
+      packages: [ros-groovy-rosgraph_msgs]
 
 roslang:
   fedora:
-  [ros-groovy-roslang]
+    yum:
+      packages: [ros-groovy-roslang]
 
 roslaunch:
   fedora:
-  [ros-groovy-roslaunch]
+    yum:
+      packages: [ros-groovy-roslaunch]
 
 roslib:
   fedora:
-  [ros-groovy-roslib]
+    yum:
+      packages: [ros-groovy-roslib]
 
 roslisp:
   fedora:
-  [ros-groovy-roslisp]
+    yum:
+      packages: [ros-groovy-roslisp]
 
 rosmake:
   fedora:
-  [ros-groovy-rosmake]
+    yum:
+      packages: [ros-groovy-rosmake]
 
 rosmaster:
   fedora:
-  [ros-groovy-rosmaster]
+    yum:
+      packages: [ros-groovy-rosmaster]
 
 rosmsg:
   fedora:
-  [ros-groovy-rosmsg]
+    yum:
+      packages: [ros-groovy-rosmsg]
 
 rosnode:
   fedora:
-  [ros-groovy-rosnode]
+    yum:
+      packages: [ros-groovy-rosnode]
 
 rosout:
   fedora:
-  [ros-groovy-rosout]
+    yum:
+      packages: [ros-groovy-rosout]
 
 rospack:
   fedora:
-  [ros-groovy-rospack]
+    yum:
+      packages: [ros-groovy-rospack]
 
 rosparam:
   fedora:
-  [ros-groovy-rosparam]
+    yum:
+      packages: [ros-groovy-rosparam]
 
 rospy:
   fedora:
-  [ros-groovy-rospy]
+    yum:
+      packages: [ros-groovy-rospy]
 
 rosservice:
   fedora:
-  [ros-groovy-rosservice]
+    yum:
+      packages: [ros-groovy-rosservice]
 
 rostest:
   fedora:
-  [ros-groovy-rostest]
+    yum:
+      packages: [ros-groovy-rostest]
 
 rostime:
   fedora:
-  [ros-groovy-rostime]
+    yum:
+      packages: [ros-groovy-rostime]
 
 rostopic:
   fedora:
-  [ros-groovy-rostopic]
+    yum:
+      packages: [ros-groovy-rostopic]
 
 rosunit:
   fedora:
-  [ros-groovy-rosunit]
+    yum:
+      packages: [ros-groovy-rosunit]
 
 roswtf:
   fedora:
-  [ros-groovy-roswtf]
+    yum:
+      packages: [ros-groovy-roswtf]
 
 std_msgs:
   fedora:
-  [ros-groovy-std_msgs]
+    yum:
+      packages: [ros-groovy-std_msgs]
 
 std_srvs:
   fedora:
-  [ros-groovy-std_srvs]
+    yum:
+      packages: [ros-groovy-std_srvs]
 
 topic_tools:
   fedora:
-  [ros-groovy-topic_tools]
+    yum:
+      packages: [ros-groovy-topic_tools]
 
 xmlrpcpp:
   fedora:
-  [ros-groovy-xmlrpcpp]
+    yum:
+      packages: [ros-groovy-xmlrpcpp]
 
